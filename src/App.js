@@ -17,6 +17,7 @@ function MainApp(props) {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Build date: {getBuildDate(packageJson.buildDate)}</p>
+        <p>Build date: 11:22</p>
       </header>
     </div>
   );
